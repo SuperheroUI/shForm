@@ -1,0 +1,13 @@
+@import '../node_modules/sh-core/src/base';
+
+.sh-form {
+    background: blue;
+
+    &.status-valid {
+        border: 2px solid greenyellow;
+    }
+
+    &.status-error {
+        border: 2px solid darkred;
+    }
+}
