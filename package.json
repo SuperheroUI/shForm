@@ -1,8 +1,8 @@
 {
   "name": "sh-form",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Form wrapper to handle validation of fields.",
-  "main": "bin/sh-input-select.js",
+  "main": "bin/sh-form.js",
   "scripts": {
     "clean": "rm -r ./bin",
     "test": "./node_modules/.bin/karma start",
