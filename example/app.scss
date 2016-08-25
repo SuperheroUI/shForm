@@ -29,3 +29,15 @@ body {
         background: darkred;
     }
 }
+
+.sh-form {
+    background: blue;
+
+    &.status-valid {
+        border: 2px solid greenyellow;
+    }
+
+    &.status-error {
+        border: 2px solid darkred;
+    }
+}

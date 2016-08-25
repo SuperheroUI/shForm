@@ -4,8 +4,6 @@ import sh from 'sh-core';
 
 import Validator from './validator';
 
-require('./sh-form.scss');
-
 class ShForm extends React.Component {
     constructor() {
         super();
