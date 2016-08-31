@@ -50,7 +50,7 @@ class ShForm extends React.Component {
         let children = this.generateChildren(this.props.children);
         let classes = {
             shForm: true,
-            status: this.state.status
+            shStatus: this.state.status
         };
         return (
             <form className={sh.getClassNames(classes)} onSubmit={this.onSubmit}>
