@@ -32,7 +32,7 @@ class ShForm extends React.Component {
 
             if (_.isFunction(child.type)) {
                 if (!_.isUndefined(child.props.validator)) {
-                    return React.cloneElement(child, {className: 'validate', validator: this.validator});
+                    return React.cloneElement(child, {validator: this.validator});
                 } else {
                     return child;
                 }
@@ -50,7 +50,7 @@ class ShForm extends React.Component {
         let children = this.generateChildren(this.props.children);
         let classes = {
             shForm: true,
-            status: this.state.status
+            shStatus: this.state.status
         };
         return (
             <form className={sh.getClassNames(classes)} onSubmit={this.onSubmit}>
